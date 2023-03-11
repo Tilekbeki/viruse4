@@ -1,0 +1,293 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: url("../img/bg.jpg") center center/cover no-repeat;
+  width: 100%;
+  min-height: 100vh; }
+
+.rectangles {
+  position: absolute;
+  right: 0;
+  z-index: -1; }
+  .rectangles img {
+    width: 794px;
+    height: 112px; }
+
+.leftstars {
+  position: absolute;
+  left: -600px;
+  top: -600px;
+  z-index: -2; }
+  .leftstars img {
+    width: 1025px;
+    height: 1616px; }
+
+.rightstars {
+  position: absolute;
+  right: 0;
+  top: -1100px;
+  z-index: -3; }
+  .rightstars img {
+    width: 1025px;
+    height: 1616px; }
+
+.maincontent {
+  padding-top: 182px;
+  padding-bottom: 80px; }
+  .maincontent_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .maincontent_title {
+    width: 760px;
+    height: 128px;
+    margin-bottom: 50px; }
+    .maincontent_title h1 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 740;
+      font-size: 46px;
+      line-height: 140%;
+      text-transform: uppercase;
+      color: #FFFFFF; }
+  .maincontent_answers {
+    width: 100%; }
+    .maincontent_answers_wrapper {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+    .maincontent_answers_block {
+      width: 280px;
+      height: 150px;
+      background: #F4F7F8;
+      border-radius: 5px 30px;
+      margin-left: 98px; }
+      .maincontent_answers_block p {
+        padding: 20px 33px 30px 33px;
+        font-family: "Inter";
+        font-style: normal;
+        color: #36302E;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        /* or 140% */ }
+      .maincontent_answers_block span {
+        font-weight: bold; }
+    .maincontent_answers .arrow {
+      padding-top: 60px;
+      padding-left: 20px; }
+    .maincontent_answers_video {
+      margin-top: 91px;
+      margin-left: 90px;
+      width: 100%;
+      height: 300px; }
+      .maincontent_answers_video iframe {
+        width: 100%;
+        height: 300px; }
+  .maincontent_reasons {
+    width: 544px;
+    min-height: 264px; }
+    .maincontent_reasons img {
+      width: 590px;
+      height: 280px;
+      padding-top: 70px; }
+    .maincontent_reasons_item {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 140%;
+      color: #FFFFFF; }
+
+.devider {
+  width: 100%;
+  height: 3px;
+  margin: 30px 0 70px 0;
+  background: #6DA0C7; }
+
+.viruses {
+  width: 800px;
+  height: 320px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .viruses_Shield {
+    display: inline;
+    height: 320px; }
+    .viruses_Shield img {
+      width: 275px;
+      height: 290px;
+      padding-top: 50px; }
+  .viruses_three {
+    display: inline-block;
+    height: 320px;
+    margin-left: 60px; }
+    .viruses_three .virus-1 {
+      height: 159px;
+      width: 159px;
+      display: inline-block;
+      padding-top: 10px; }
+    .viruses_three .virus-2 {
+      width: 82px;
+      height: 62px;
+      margin-left: 211px;
+      display: block;
+      padding-top: 0; }
+    .viruses_three .virus-3 {
+      padding-top: 0;
+      width: 62px;
+      height: 62px;
+      margin-top: 22px;
+      margin-left: 79px;
+      display: inline-block; }
+
+@media (max-width: 1200px) {
+  .maincontent_answers {
+    padding-left: 20px; }
+    .maincontent_answers_video {
+      margin-top: 89px; }
+    .maincontent_answers_block {
+      width: 220px; }
+      .maincontent_answers_block p {
+        padding: 20px 33px 20px 20px;
+        font-size: 18px; }
+  .maincontent_reasons {
+    width: 520px; }
+
+  .viruses {
+    width: 600px;
+    height: 320px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .viruses_Shield {
+      display: inline;
+      height: 320px; }
+      .viruses_Shield img {
+        width: 240px;
+        height: 290px;
+        padding-top: 50px; }
+    .viruses_three {
+      display: inline-block;
+      height: 320px;
+      margin-left: 60px; }
+      .viruses_three .virus-1 {
+        height: 130px;
+        width: 130px;
+        display: inline-block;
+        padding-top: 10px; }
+      .viruses_three .virus-2 {
+        width: 82px;
+        height: 82px;
+        margin-left: 170px;
+        display: block;
+        padding-top: 0; }
+      .viruses_three .virus-3 {
+        padding-top: 0;
+        width: 62px;
+        height: 62px;
+        margin-top: 22px;
+        margin-left: 30px;
+        display: inline-block; } }
+@media (max-width: 991px) {
+  .rectangles img {
+    width: 694px;
+    height: 98px; }
+
+  .maincontent_title {
+    margin-bottom: 90px; }
+    .maincontent_title h1 {
+      text-align: center; }
+  .maincontent_block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .maincontent_answers {
+    margin: 0 auto; }
+    .maincontent_answers_wrapper {
+      margin-top: 80px; }
+    .maincontent_answers_block {
+      margin-left: 0px; }
+    .maincontent_answers_video {
+      padding-left: 0px;
+      margin: 0 auto;
+      margin-top: 40px; } }
+@media (max-width: 767px) {
+  .rectangles img {
+    width: 620px;
+    height: 88px; }
+
+  .maincontent_title {
+    margin-bottom: 60px; }
+    .maincontent_title h1 {
+      font-size: 40px; }
+  .maincontent_reasons_item {
+    font-size: 18px; }
+
+  .viruses {
+    width: 400px;
+    height: 320px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .viruses_Shield {
+      display: inline;
+      height: 320px; }
+      .viruses_Shield img {
+        width: 220px;
+        height: 260px;
+        padding-top: 50px; }
+    .viruses_three {
+      display: inline-block;
+      height: 320px;
+      margin-left: 60px; }
+      .viruses_three .virus-1 {
+        height: 100px;
+        width: 100px;
+        display: inline-block;
+        padding-top: 10px; }
+      .viruses_three .virus-2 {
+        width: 80px;
+        height: 80px;
+        margin-left: 140px;
+        display: block;
+        padding-top: 0; }
+      .viruses_three .virus-3 {
+        padding-top: 0;
+        width: 60px;
+        height: 60px;
+        margin-top: 22px;
+        margin-left: 20px;
+        display: inline-block; } }
+@media (max-width: 575px) {
+  .viruses {
+    display: none; }
+
+  .maincontent {
+    padding-top: 100px; }
+    .maincontent_title {
+      margin-bottom: 40px; }
+      .maincontent_title h1 {
+        font-size: 30px; }
+    .maincontent_reasons {
+      width: 345px; }
+      .maincontent_reasons_item {
+        font-size: 16px; }
+    .maincontent_answers {
+      padding-left: 5px; }
+      .maincontent_answers_block {
+        width: 230px; }
+        .maincontent_answers_block p {
+          padding: 10px 25px 10px 14px;
+          font-size: 16px; } }
+
+/*# sourceMappingURL=style.css.map */
